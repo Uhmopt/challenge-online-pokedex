@@ -1,3 +1,18 @@
+# Showing Pages
+
+### Loading Page
+
+This page will be showing for 3 seconds since the page loaded.
+
+### Pokemon Grid Page
+
+After loading page is shown 3 seconds the main pokemon grid page will be shown.
+
+### Loading Page
+
+If the user click any pokemon card, it will goes to error page. :(
+To back to main page please refresh the page. :)
+
 # Challenge answers
 
 ### How did you decide on the technical and architectural choices used as part of your solution?
