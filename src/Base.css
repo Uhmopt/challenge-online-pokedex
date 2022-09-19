@@ -1,0 +1,16 @@
+.m-0 {
+  margin: 0px;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}

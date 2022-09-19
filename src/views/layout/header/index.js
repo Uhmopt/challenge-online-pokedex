@@ -1,5 +1,5 @@
 import React from "react";
-import { APP_NAME } from "../../../constants/strings";
+import { APP_NAME } from "config/appConfig";
 
 export default function Header() {
   return (

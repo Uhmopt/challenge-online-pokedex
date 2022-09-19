@@ -8,11 +8,11 @@
   --orange: #fd8900;
   --blue: #051bd9;
 
-  --xs: 320px;
-  --sm: 480px;
-  --md: 768px;
-  --lg: 1024px;
-  --xl: 1200px;
+  --xs: 480px;
+  --sm: 768px;
+  --md: 1024px;
+  --lg: 1200px;
+  --xl: 1600px;
 }
 
 .app {
@@ -30,6 +30,7 @@
   background-color: var(--dark-gray);
   color: var(--white);
   padding: 16px;
+  text-align: center;
 }
 
 .footer {
@@ -39,6 +40,7 @@
   background-color: var(--dark-gray);
   color: var(--white);
   padding: 16px;
+  text-align: center;
 }
 
 .container {
@@ -51,4 +53,68 @@
 
 .container-content {
   padding: 0.01rem 16px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  padding: 16px;
+  margin: 16px;
+  width: calc(16.666% - 64px);
+  min-width: 160px;
+
+  border-radius: 8px;
+  overflow: hidden;
+
+  background-color: var(--light-gray);
+
+  text-align: center;
+  color: var(--white);
+
+  cursor: pointer;
+}
+
+.pokemon-card > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.pokemon-card-id {
+  font-size: larger;
+}
+
+.pokemon-card-name {
+  font-size: larger;
+}
+
+.chip {
+  min-width: 56px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 4px;
+  color: var(--white);
+}
+
+.chip-grass {
+  background-color: var(--light-green);
+}
+
+.chip-poison {
+  background-color: var(--pink);
+}
+
+.chip-fire {
+  background-color: var(--orange);
+}
+
+.chip-water {
+  background-color: var(--blue);
+}
+
+.chip-bug {
+  background-color: var(--green);
 }
