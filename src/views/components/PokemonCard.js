@@ -3,9 +3,13 @@ import { zeroLeading } from "utils/mathUtil";
 import Chips from "./Chips";
 import Image from "./Image";
 
-export default function PokemonCard({ data = {}, dataIndex = -1 }) {
+export default function PokemonCard({
+  data = {},
+  dataIndex = -1,
+  onClick = () => {},
+}) {
   return (
-    <div className="pokemon-card">
+    <div className="pokemon-card" onClick={() => onClick(data, dataIndex)}>
       <Image src={data?.image?.url} />
       <div className="pokemon-card-id">#{zeroLeading(data?.number, 3)}</div>
       <div className="pokemon-card-name">{data?.name ?? "???"}</div>

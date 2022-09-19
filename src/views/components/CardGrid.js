@@ -4,7 +4,7 @@ import { formatArray } from "utils/arrayUtils";
 export default function CardGrid({
   data = [],
   component: Component = () => null,
-  componentParams = {},
+  componentProps = {},
 }) {
   const formattedData = useMemo(() => formatArray(data), [data]);
 
@@ -15,7 +15,7 @@ export default function CardGrid({
           key={itemIndex}
           data={item}
           dataIndex={itemIndex}
-          {...componentParams}
+          {...componentProps}
         />
       ))}
     </div>
