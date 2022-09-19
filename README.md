@@ -1,3 +1,17 @@
+# How did you decide on the technical and architectural choices used as part of your solution?
+
+This project is simple and I had to use only react-js so I build the project by only using react-js.
+
+# Are there any improvements you could make to your submission?
+
+Yes, there are.
+I could use some basic packages that can improve project structure and performance such as react-router-dom, tailwindCSS.
+If I could use them, it become more clean and light.
+
+# What would you do differently if you were allocated more time?
+
+I will update the project structure by using react-router-dom and make code more clean and make the project more faster to load by using post-CSS such as tailwindCSS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
